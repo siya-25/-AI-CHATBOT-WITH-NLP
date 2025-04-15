@@ -1,0 +1,291 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "good morning",
+                "good afternoon",
+                "good evening",
+                "howdy",
+                "greetings",
+                "what's up",
+                "sup"
+            ],
+            "responses": [
+                "Hello {name}! How can I help you today?",
+                "Hi {name}! What can I do for you?",
+                "Hey {name}! How are you doing?",
+                "Greetings {name}! How may I assist you?",
+                "Hi there {name}! What brings you here today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you later",
+                "see ya",
+                "take care",
+                "farewell",
+                "until next time",
+                "catch you later",
+                "have a good day",
+                "good night"
+            ],
+            "responses": [
+                "Goodbye {name}! Have a great day!",
+                "See you later {name}!",
+                "Take care {name}!",
+                "Farewell {name}! Come back soon!",
+                "Goodbye for now {name}! Have a wonderful day!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks",
+                "thank you",
+                "thx",
+                "appreciate it",
+                "much obliged",
+                "thanks a lot",
+                "thank you very much",
+                "many thanks",
+                "grateful",
+                "appreciated"
+            ],
+            "responses": [
+                "You're welcome!",
+                "No problem!",
+                "Glad I could help!",
+                "Anytime!",
+                "My pleasure!",
+                "You're very welcome!"
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "what time is it",
+                "tell me the time",
+                "current time",
+                "time please",
+                "what's the time",
+                "time now",
+                "what time do you have",
+                "could you tell me the time",
+                "do you know what time it is",
+                "time check"
+            ],
+            "responses": [
+                "The current time is {time}",
+                "It's {time} right now",
+                "The time is {time}",
+                "Right now it's {time}",
+                "According to my clock, it's {time}"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "who are you",
+                "what should I call you",
+                "your name",
+                "may I know your name",
+                "what do people call you",
+                "what's your name",
+                "identify yourself",
+                "who am I talking to",
+                "introduce yourself"
+            ],
+            "responses": [
+                "I'm ChatBuddy, your friendly chatbot!",
+                "You can call me ChatBuddy!",
+                "I'm ChatBuddy, nice to meet you!",
+                "I'm ChatBuddy, your AI assistant!",
+                "My name is ChatBuddy, and I'm here to help!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "help",
+                "what can you do",
+                "how can you help",
+                "what do you do",
+                "capabilities",
+                "functions",
+                "what are your features",
+                "what can you help with",
+                "what are you good at",
+                "what services do you offer"
+            ],
+            "responses": [
+                "I can help you with basic math calculations, tell you the time and date, and have friendly conversations!",
+                "I'm here to chat, solve math problems, and tell you the current time and date!",
+                "I can do basic math, tell time, and have conversations with you!",
+                "I'm your AI assistant! I can chat, do math, and tell you the time and date!",
+                "I'm here to assist you with math calculations, time, and general conversation!"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "tell me a joke",
+                "make me laugh",
+                "joke please",
+                "funny story",
+                "got any jokes",
+                "entertain me",
+                "something funny",
+                "make me smile",
+                "humor me",
+                "lighten the mood"
+            ],
+            "responses": [
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "What do you call fake spaghetti? An impasta!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "What do you call a fish with no eyes? Fsh!",
+                "Why did the math book look sad? Because it had too many problems!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "what's your age",
+                "when were you created",
+                "your age",
+                "how long have you existed",
+                "birth date",
+                "creation date",
+                "age please",
+                "years old",
+                "how many years"
+            ],
+            "responses": [
+                "I'm an AI, so I don't have an age in the traditional sense!",
+                "I was created recently to help and assist users like you!",
+                "I'm a new AI assistant, constantly learning and improving!",
+                "I don't have an age, but I'm always up to date with the latest information!",
+                "I'm a modern AI assistant, created to help and serve users!"
+            ]
+        },
+        {
+            "tag": "feeling",
+            "patterns": [
+                "how are you",
+                "how do you feel",
+                "are you okay",
+                "how's it going",
+                "what's up",
+                "how's your day",
+                "feeling good",
+                "how are you doing",
+                "are you well",
+                "how's everything"
+            ],
+            "responses": [
+                "I'm doing great, thanks for asking! How about you?",
+                "I'm functioning perfectly! How can I help you today?",
+                "I'm doing well! What can I do for you?",
+                "I'm great! How are you doing?",
+                "I'm excellent! How can I assist you?"
+            ]
+        },
+        {
+            "tag": "math",
+            "patterns": [
+                "calculate",
+                "what is",
+                "solve",
+                "math problem",
+                "mathematics",
+                "add",
+                "subtract",
+                "multiply",
+                "divide",
+                "sum"
+            ],
+            "responses": [
+                "I can help you with basic math calculations. Just type your math problem!",
+                "I'm ready to solve math problems. What would you like to calculate?",
+                "I can do basic arithmetic. What's your math question?",
+                "I'm good at math! What would you like me to calculate?",
+                "I can help with calculations. What's your math problem?"
+            ]
+        },
+        {
+            "tag": "compliment",
+            "patterns": [
+                "you're smart",
+                "you're helpful",
+                "you're great",
+                "you're amazing",
+                "you're awesome",
+                "you're the best",
+                "you're wonderful",
+                "you're fantastic",
+                "you're brilliant",
+                "you're excellent"
+            ],
+            "responses": [
+                "Thank you! That's very kind of you to say!",
+                "I appreciate your kind words!",
+                "Thanks! I'm here to help!",
+                "That's very nice of you to say!",
+                "Thank you for the compliment!"
+            ]
+        },
+        {
+            "tag": "apology",
+            "patterns": [
+                "sorry",
+                "apologize",
+                "my bad",
+                "my mistake",
+                "forgive me",
+                "pardon me",
+                "excuse me",
+                "I apologize",
+                "I'm sorry",
+                "regret"
+            ],
+            "responses": [
+                "No need to apologize! We all make mistakes.",
+                "It's okay! No worries at all.",
+                "No problem! Let's move forward.",
+                "Don't worry about it!",
+                "It's all good! No need to apologize."
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "what's today's date",
+                "current date",
+                "today's date",
+                "what day is it",
+                "date today",
+                "what's the date",
+                "today's day",
+                "current day",
+                "what day is today",
+                "date please"
+            ],
+            "responses": [
+                "Today's date is {date}",
+                "It's {date} today",
+                "The current date is {date}",
+                "Today is {date}",
+                "According to my calendar, it's {date}"
+            ]
+        }
+    ]
+} 
