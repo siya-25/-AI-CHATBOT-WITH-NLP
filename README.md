@@ -61,6 +61,3 @@ You can customize the chatbot's responses by editing the `intents.json` file. Ea
 - scikit-learn
 - numpy
 
-## License
-
-This project is open source and available under the MIT License. 
