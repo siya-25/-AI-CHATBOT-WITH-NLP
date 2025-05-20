@@ -63,14 +63,4 @@ You can customize the chatbot's responses by editing the `intents.json` file. Ea
 
 AI CHATBOT WITH NLP
 
-*COMPANY* : CODTECH IT SOLUTIONS 
 
-*NAME* : SIYA PAGAR
-
-*INTERN ID* : CT04WN39
-
-*DOMAIN* : PYTHON PROGRAMMING 
-
-*DURATION* : 4 WEEKS
-
-*MENTOR* : NEELA SANTOSH
