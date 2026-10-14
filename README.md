@@ -30,7 +30,7 @@ ChatBuddy is a Python-based chatbot that uses Natural Language Processing (NLP) 
    - Tell you the current time
    - Answer questions about itself
    - Respond to thank you messages
-   - Say goodbye
+   - Say goodbye Have a great Day 
 
 ## Example Conversations
 
